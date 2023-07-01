@@ -1,0 +1,45 @@
+# Django Ignore
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# vscode ignore
+.vscode
+
+# Secret key
+secret_key.txt
+
+# Development settings
+settings/local.py
+
+# Media and static files (if not using cloud storage)
+media/
+static/
+
+# Database
+db.sqlite3
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# Compiled files
+*.pyc
+*.class
+*.o
+*.a
+*.dll
+*.exe
+
+# IDE and editor files (customize as per your preference)
+.vscode/
+.idea/
+*.sublime*
+*.emacs*
+*.vim
+*.swp
+*.swo
+*.swn
